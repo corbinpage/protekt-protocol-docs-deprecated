@@ -35,8 +35,8 @@ Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pT
 
 ![pToken Image](/img/pTokenDiagram.png)
 
-### Protekt contracts
-Protekt contracts are configurable insurance contracts that can be set up on top of ANY DeFi pool, whether it's a lending pool, market making pool, staking pool, etc. Users can point the contract at any Ethereum address, define the rules that trigger an incident, set the fees, and specify how the staking funds are managed and paid. Then anyone can mint pTokens by joining the pool and obtain coverage on their assets.
+### Protekt Contracts
+[Protekt contracts](/docs/protektContracts.md) are configurable insurance contracts that can be set up on top of ANY DeFi pool, whether it's a lending pool, market making pool, staking pool, etc. Users can point the contract at any Ethereum address, define the rules that trigger an incident, set the fees, and specify how the staking funds are managed and paid. Then anyone can mint pTokens by joining the pool and obtain coverage on their assets.
 
 Stakers can add capital to the Protekt contract to cover the liability of the underlying pool from a Shortfall event and earn a portion of the yield farming rewards in return. Stakers should only stake on capital pools they are confident are secure and can ask for audits, reviews, timelocks, etc before depositing value.
 
