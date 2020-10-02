@@ -25,9 +25,6 @@ The protocol  was inspired and uses money legos from yearn, Aave, Compound, Bala
 ## How it works
 Similar to how Uniswap allows any token to be added, Protekt Protocol allows any smart contract to be backed by a Protekt contract, making a market on the risk of hacks, bugs, and exploits via configurable rules.
 
-[Graphic showing different contracts](/)
-
-
 ### pTokens, like cTokens but with cover
 Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pTokens in return. The pToken represents your underlying cToken 1:1 plus 90% of the COMP farming rewards, while the other 10% goes to the Protekt pool stakers as rewards. This fee is the user's ongoing "premium" for purchasing cover. pTokens can be minted at any time and redeemed for your cTokens + adjusted COMP rewards at any time.
 
