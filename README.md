@@ -1,64 +1,62 @@
 ![Banner](/img/banner.jpg)
 
 # Protekt Protocol
-Protekt Protocol puts crypto to work insuring users against hacks, bugs, and exploits of any DeFi protocol. Just as [Uniswap](https://uniswap.org/) allows any token to have a spot market, Protekt allows any smart contract to be insured by stakers. The goal is to support and catalyze the growth of the DeFi ecosystem by protecting users from getting rekt.
+Protekt Protocol puts crypto to work insuring users against hacks, bugs, and other exploits of any DeFi protocol. Just as [Uniswap](https://uniswap.org/) allows any token to have a spot market, Protekt allows any smart contract to be insured by stakers. The goal is to support and catalyze the growth of the DeFi ecosystem by protecting users from getting rekt.
 
 Along with being a smart contract protocol, an allocation of protocol treasury will be used for grants to continually audit and secure other DeFi money legos, so the ecosystem can all grow safely together!
 
 ## DeFi Risk
-Building on the work of awesome projects like [DeFi Score](https://defiscore.io/), [Nexus Mutual](https://nexusmutual.io/), [Aave's Safety Modules](https://docs.aave.com/aavenomics/safety-module), and others, we believe that large technical and financial vulnerabilities are the **biggest risk to a thriving DeFi community** over the next few years. Smart contracts that contain large amounts of value face the following risks:
+Building on the work of awesome projects like [DeFi Score](https://defiscore.io/), [Nexus Mutual](https://nexusmutual.io/), [Aave's Safety Modules](https://docs.aave.com/aavenomics/safety-module), and others, we believe that large technical vulnerabilities are the **biggest risk to a thriving DeFi community** over the next few years. Smart contracts that contain large amounts of value face the following risks:
 1. Smart Contract Risk - Technical bugs that can expose funds to hackers
-2. Financial Risk - Collateral falls below outstanding obligations, likely due to price movement, or low liquidity leads to locked funds
-3. Centralization Risk - Centralized admin keys are stolen or used nefariously or oracles are manipulated to allow an exploit
+2. Centralization Risk - Centralized admin keys are stolen or used nefariously or oracles are manipulated to allow an exploit
+3. Financial Risk - Collateral falls below outstanding obligations, likely due to price movement, or low liquidity leads to locked funds
 
 Especially as new money legos are created, snapped together, and remixed weekly, the risks multiply and become a bottleneck to more capital flowing into the space. New entrants need signaling and assurance of the projects they can trust and commit capital as well as recapitalization if a [Shortfall Event](https://docs.aave.com/aavenomics/terminology#shortfall-event-se) occurs.
 
 To fulfill this need, Protekt Protocol introduces a new insurance marketplace with several innovative features:
 * 📜 ANYONE can back ANY capital pool with a composable insurance contract
 * 💸 Insurees can mint wrapped tokens with built in coverage (never "buy cover")
-* 🛡 Stakers deposit capital (shield mining) to assume liability and earn rewards
+* 🛡 Stakers (shield miners) deposit capital to assume liability and earn rewards
 * 🔀 Configurable claims process via automated rules or a DAO
 * 🏦 Payouts trigger a liquidation waterfall to spread risk through tranches
 
-The protocol  was inspired and uses money legos from yearn, Aave, Compound, Balancer, Maker, rDAi, and others. The very best in DeFi.
+The protocol  was inspired and uses money legos from yearn, Aave, Compound, Balancer, Maker, rDAi, Nexus, and others. The very best in DeFi.
 
 ## How it works
-Similar to how Uniswap allows any token to be added, Protekt Protocol allows any smart contract to be backed by a Protekt contract, making a market on the risk of hacks, bugs, and exploits via configurable rules.
+Similar to how [Uniswap](https://uniswap.org/) allows any token to have a spot market, Protekt Protocol allows any smart contract to be backed by a **Protekt contract**, which creates a market for the risk of lost assets held by the smart contract.
+
+When setting up the [Protekt contract](/docs/protektContracts.md), the user specifies an asset (DAI, ETH, USDC, etc.) and an underlying pool, which can be a lending pool, market making pool, staking pool, multi-sig wallet, etc. They also specify the fee model and rules for triggering and evaluating a claim. Once launched, insurees get coverage by minting **pTokens** and shield miners stake assets and earn rewards for assuming the risk of getting liquidated.
+
+![Full Protocol Image](/img/ProtektProtocolDiagram.png)
 
 ### pTokens, like cTokens but with cover
-Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pTokens in return. The pToken represents your underlying cToken 1:1 plus 90% of the COMP farming rewards, while the other 10% goes to the Protekt pool stakers as rewards. This fee is the user's ongoing "premium" for purchasing cover. pTokens can be minted at any time and redeemed for your cTokens + adjusted COMP rewards at any time.
+pTokens wrap shares in a DeFi pool (lending pool, AMM LP shares, etc.) and cover the deposits in return for an extracted fee to reward the shield miners. Let's look at an example:
 
-**In short, by holding a pToken, you pay 10% of your yield farming returns to be insured against hacks, bugs, and exploits of the underlying capital pool.**
+Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pTokens (pcDAI) in return. pcDAI represents your underlying cDAI 1:1 plus 80% of the COMP farming rewards, while the other 20% goes to the shield miners as rewards. This fee is the user's ongoing "premium" for purchasing cover. pTokens can be minted at any time and redeemed for your cTokens + adjusted COMP rewards at any time.
+
+**In short, by holding a pToken, you pay 20% of your yield farming returns to be insured against hacks and smart contract bugs in the underlying capital pool.**
 
 ![pToken Image](/img/pTokenDiagram.png)
 
 ### Protekt Contracts
-[Protekt contracts](/docs/protektContracts.md) are configurable insurance contracts that can be set up on top of ANY DeFi pool, whether it's a lending pool, market making pool, staking pool, etc. Users can point the contract at any Ethereum address, define the rules that trigger an incident, set the fees, and specify how the staking funds are managed and paid. Then anyone can mint pTokens by joining the pool and obtain coverage on their assets.
+[Protekt contracts](/docs/protektContracts.md) are configurable insurance markets that can be set up on top of any smart contract. Upon launching the contract, the creator specifies:
+* Underlying asset and capital pool
+* Fee model
+* Shield mining asset and investment strategy
+* Claims Manager (a programmatic smart contract or a DAO)
 
-Stakers can add capital to the Protekt contract to cover the liability of the underlying pool from a Shortfall event and earn a portion of the yield farming rewards in return. Stakers should only stake on capital pools they are confident are secure and can ask for audits, reviews, timelocks, etc before depositing value.
+Fee models, investment strategy, and the claims process are each configurable but must conform to the same interface. Users can search for the best contract to meet their goals, and stakers can stake capital on the capital pools they are confident in. If a payout event occurs, any insuree can `submitClaim()` and kick off the claims process, which can be managed by programmatic rules, a DAO, or a centralized party.
 
 ![Protekt Pool Image](/img/ProtektPool.png)
 
 ### The PKT Mothership Pool
-The PKT Mothership is the backstop that covers all Protekt pools, governs which underlying pools are added and when, and will eventually earn cashflow. New Protekt pools can only be added through the Mothership. She creates life and gives security.
-
-![Full Protocol Image](/img/ProtektProtocolDiagram.png)
-
-## Claims & Liquidations
-
-### Claims
-All these Shortfall Events result in collateral that falls below the protocol's obligations for a sustained period of time. Market making pools, staking pools, wallets, exchanges, and other accounts can be programmatically checked for incidents as well. So Protekt pool provides a common interface for submitting claims, investigation, resolution, and payouts, but the implementation is left up to the pool creator.
-
-**In short, each insurance contract follows the same claims process but can be executed via programmatic rules, a DAO, or centralized party.**
-
-### Liquidations
-If a claim is successfully made, the payouts will be made by liquidating the Protekt pool and, if necessary, the PKT Mothership Pool. This structure was inspired by a [distribution waterfall ](https://en.wikipedia.org/wiki/Distribution_waterfall) so that multiple buckets of capital can be set up to assume different amounts of liability to the underlying pool. Payouts can be made via [payment-in-kind](https://www.investopedia.com/terms/p/paymentinkind.asp) or swapped and distributed in a monetary asset like ETH, DAI, or USDC.
+The PKT Mothership is the backstop that covers all Protekt pools up to certain thresholds, governs which underlying pools are added and when, and will eventually earn cashflow. New Protekt pools can only be added through the Mothership. She creates life and gives security.
 
 ## The PKT Token
 The PKT token is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
 
 ### Protocol Incentives (Yield Farming)
-Every Wednesday, new rounds of PKT will be claimable by those providing capital or work into the protocol. PKT can't be bought, only earned. Tasks that earn weekly PKT include:
+Every Wednesday, new rounds of PKT will be claimable by those providing capital or work into the protocol. Tasks that earn weekly PKT include:
 * Staking in a Protekt pool
 * Staking ETH or PKT in the Mothership Vault
 * Rewards for fulfilling open grants
