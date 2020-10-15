@@ -39,6 +39,9 @@ Payout events explicitly outline what executes the insurance contract. For insta
 #### Liquidations
 If a claim is successfully made, the payouts will be made by liquidating the Protekt pool and, if necessary, the PKT Mothership Pool. This structure was inspired by a [distribution waterfall ](https://en.wikipedia.org/wiki/Distribution_waterfall) so that multiple buckets of capital can be set up to assume different amounts of liability to the underlying pool. Payouts can be made via [payment-in-kind](https://www.investopedia.com/terms/p/paymentinkind.asp) or swapped and distributed in any token.
 
+## Architecture
+![Claims Process](/img/smartContractArchitecture.png)
+
 ## Examples
 Let's look at some examples to see what can be built:
 1. Protekt cDai - Protect DAI deposits in Compound
