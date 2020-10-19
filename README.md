@@ -5,6 +5,10 @@ Protekt Protocol puts crypto to work insuring users against hacks, bugs, and oth
 
 Along with being a smart contract protocol, an allocation of protocol treasury will be used for grants to continually audit and secure other DeFi money legos, so the ecosystem can all grow safely together!
 
+**Repos**
+[Smart Contracts](https://github.com/corbinpage/protekt-protocol-contracts)
+[Frontend](https://github.com/corbinpage/protekt-fe)
+
 ## DeFi Risk
 Building on the work of awesome projects like [DeFi Score](https://defiscore.io/), [Nexus Mutual](https://nexusmutual.io/), [Aave's Safety Modules](https://docs.aave.com/aavenomics/safety-module), and others, we believe that large technical vulnerabilities are the **biggest risk to a thriving DeFi community** over the next few years. Smart contracts that contain large amounts of value face the following risks:
 1. Smart Contract Risk - Technical bugs that can expose funds to hackers
