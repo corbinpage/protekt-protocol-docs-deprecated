@@ -33,7 +33,7 @@ When setting up the [Protekt contract](/docs/protektContracts.md), the user spec
 
 **Protekt Protocol is a generalized and open version of the risk management systems built into Maker, Aave, and Nexus Mutual.**
 
-![Protocol Comparison Diagram](/img/ProtocolComparisonDiagram.png)
+![Protocol Comparison Diagram](/img/ProtocolComparison.png)
 
 ### pTokens, like cTokens but with cover
 pTokens wrap shares in a DeFi pool (lending pool, AMM LP shares, etc.) and cover the deposits in return for an extracted fee to reward the shield miners. Let's look at an example:
