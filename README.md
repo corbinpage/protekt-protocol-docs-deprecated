@@ -31,7 +31,9 @@ Similar to how [Uniswap](https://uniswap.org/) allows any token to have a spot m
 
 When setting up the [Protekt contract](/docs/protektContracts.md), the user specifies an asset (DAI, ETH, USDC, etc.) and an underlying pool, which can be a lending pool, market making pool, staking pool, multi-sig wallet, etc. They also specify the fee model and rules for triggering and evaluating a claim. Once launched, insurees get coverage by minting **pTokens** and shield miners stake assets and earn rewards for assuming the risk of getting liquidated.
 
-![Full Protocol Image](/img/ProtektProtocolDiagram.png)
+**Protekt Protocol is a generalized and open version of the risk management systems built into Maker, Aave, and Nexus Mutual.**
+
+![Full Protocol Image](/img/protocolComparisonDiagram.png.png)
 
 ### pTokens, like cTokens but with cover
 pTokens wrap shares in a DeFi pool (lending pool, AMM LP shares, etc.) and cover the deposits in return for an extracted fee to reward the shield miners. Let's look at an example:
@@ -56,6 +58,8 @@ Fee models, investment strategy, and the claims process are each configurable bu
 ### The PKT Mothership Pool
 The PKT Mothership is the backstop that covers all Protekt pools up to certain thresholds, governs which underlying pools are added and when, and will eventually earn cashflow. New Protekt pools can only be added through the Mothership. She creates life and gives security.
 
+![Full Protocol Image](/img/ProtektProtocolDiagram.png)
+
 ## The PKT Token
 The PKT token is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
 
@@ -74,6 +78,6 @@ Protekt protocol's ultimate mission is to provide a service that makes DeFi safe
 
 ## References
 * [Twitter](https://twitter.com/protektprotocol) for announcements
-* [Discord (Coming Soon)](/) for discussions
+* [Telegram](https://t.me/protektdefi) for discussions
 * [Snapshot (Coming Soon)](/) for governance
 * [Github](https://github.com/corbinpage/protekt-protocol-docs) for code & docs
