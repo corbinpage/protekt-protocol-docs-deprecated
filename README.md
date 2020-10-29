@@ -31,9 +31,9 @@ Similar to how [Uniswap](https://uniswap.org/) allows any token to have a spot m
 
 When setting up the [Protekt contract](/docs/protektContracts.md), the user specifies an asset (DAI, ETH, USDC, etc.) and an underlying pool, which can be a lending pool, market making pool, staking pool, multi-sig wallet, etc. They also specify the fee model and rules for triggering and evaluating a claim. Once launched, insurees get coverage by minting **pTokens** and shield miners stake assets and earn rewards for assuming the risk of getting liquidated.
 
-**Protekt Protocol is a generalized and open version of the risk management systems built into Maker, Aave, and Nexus Mutual.**
+**Protekt Protocol is a generalized and open version of the risk management systems built into Maker and Aave but can back any capital pool by anyone.**
 
-![Protocol Comparison Diagram](/img/ProtocolComparison.png)
+![Protocol Comparison Diagram](/img/ProtocolComparisonDiagram.png)
 
 ### pTokens, like cTokens but with cover
 pTokens wrap shares in a DeFi pool (lending pool, AMM LP shares, etc.) and cover the deposits in return for an extracted fee to reward the shield miners. Let's look at an example:
