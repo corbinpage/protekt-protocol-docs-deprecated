@@ -1,8 +1,3 @@
----
-id: resources
-title: Resources
----
-
 # Resources
 
 ## Risk Management Tools

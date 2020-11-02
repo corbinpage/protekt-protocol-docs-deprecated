@@ -1,26 +1,21 @@
----
-id: priorities
-title: Priorities
----
-
 # Priorities
 
 ## Mission
-Build a community and protocol dedicated to keeping #DeFi safe and secure for everyone. 
+Build a protocol and community dedicated to keeping #DeFi safe and secure for everyone. 
 
 ## Q4 2020 OKRs
-#### Objective #1: Find first users
+#### Objective #1 - Find our first users.
 | Result | Progress to Date | Status |
 |--------|------------------|--------|
-|Sign 3 protocol partners for first cohort.|0 agreed|🔜|
+|Sign 3 protocol partners for first cohort.|0 partners|🔜|
 
-#### Objective #2: Mature Technology
+#### Objective #2 - Mature the Technology.
 | Result | Progress to Date | Status |
 |--------|------------------|--------|
 |Deploy fully functional MVP web app to testnet.|Not launched|🔜|
 |Finalized v1 smart contracts and started audit/testing|Not Ready|🔜|
 
-#### Objective #3: Grow Community
+#### Objective #3 - Grow Community
 | Result | Progress to Date | Status |
 |--------|------------------|--------|
 |Have 10 members adding utility to protocol.|None|🔜|
