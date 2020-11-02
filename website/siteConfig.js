@@ -49,9 +49,9 @@ const siteConfig = {
   // users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/protekt-logo.png',
-  footerIcon: 'img/protekt-logo.png',
-  favicon: 'img/favicon.ico',
+  headerIcon: '../img/protekt-logo.png',
+  footerIcon: '../img/protekt-logo.png',
+  favicon: '../img/favicon.ico',
 
   /* Colors for website */
   colors: {

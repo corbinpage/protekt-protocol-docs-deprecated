@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Incentives · Protekt Protocol Docs</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="# Protocol Incentives"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Incentives · Protekt Protocol Docs"/><meta property="og:type" content="website"/><meta property="og:url" content="https://corbinpage.github.io/protekt-protocol-docs/"/><meta property="og:description" content="# Protocol Incentives"/><meta property="og:image" content="https://corbinpage.github.io/protekt-protocol-docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://corbinpage.github.io/protekt-protocol-docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/protekt-protocol-docs/../img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/protekt-protocol-docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/protekt-protocol-docs/css/main.css"/><script src="/protekt-protocol-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/protekt-protocol-docs/"><img class="logo" src="/protekt-protocol-docs/../img/protekt-logo.png" alt="Protekt Protocol Docs"/><h2 class="headerTitleWithLogo">Protekt Protocol Docs</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/protekt-protocol-docs/docs/home" target="_self">Docs</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/protekt-protocol-docs/docs/incentives" target="_self">Incentives</a></li><li class=""><a href="/protekt-protocol-docs/docs/resources" target="_self">Resources</a></li><li class=""><a href="https://github.com/corbinpage/protekt-protocol-docs" target="_blank">GitHub</a></li><li class=""><a target="_self"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Docs</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Docs</h3><ul class=""><li class="navListItem"><a class="navItem" href="/protekt-protocol-docs/docs/home">Home</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/protekt-protocol-docs/docs/incentives">Incentives</a></li><li class="navListItem"><a class="navItem" href="/protekt-protocol-docs/docs/priorities">Priorities</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Incentives</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="protocol-incentives"></a><a href="#protocol-incentives" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Protocol Incentives</h1>
+<p>Every Wednesday, PKT tokens will be claimable by those providing capital or work into the protocol. PKT can't be bought, only earned.</p>
+<p>Some examples of tasks that earn weekly PKT include:
+<strong>Providing capital</strong></p>
+<ul>
+<li>Staking in a Protekt Pool (earned by proportional value per block)</li>
+<li>Staking ETH/PKT in the Mothership Vault (earned by proportional value per block)</li>
+<li>Holding pTokens</li>
+</ul>
+<p><strong>Providing work</strong></p>
+<ul>
+<li>Rewards for fulfilling open weekly grants (found below)</li>
+<li>Rewards for creating audit reports on other DeFi protocols (found below)</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="contributions"></a><a href="#contributions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributions</h2>
+<h3><a class="anchor" aria-hidden="true" id="contributing-work"></a><a href="#contributing-work" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing Work</h3>
+<p>Once a task is complete, open a PR on this repo for the work that was done. If the PR is merged in, comment with your Ethereum address, and you'll get issued the PKT on the next Wednesday.</p>
+<h3><a class="anchor" aria-hidden="true" id="contributing-capital"></a><a href="#contributing-capital" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing Capital</h3>
+<p>Every wednesday, we run a script to get the proportion of capital in each pool and the amount of blocks that it's been present. We will then issue PKT rewards to each depositing address, which will be claimable on our site.</p>
+<h2><a class="anchor" aria-hidden="true" id="weekly-drops"></a><a href="#weekly-drops" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Weekly Drops</h2>
+<h3><a class="anchor" aria-hidden="true" id="alpha-week"></a><a href="#alpha-week" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alpha Week</h3>
+<p><strong>1M PKT (0.1% of 0.1% total distributed)</strong></p>
+<table>
+<thead>
+<tr><th>Incentive Task</th><th>% earned</th><th>Payed out to</th><th>tx Hash</th></tr>
+</thead>
+<tbody>
+<tr><td>Translate the .md files in this repo to Chinese</td><td>20%</td><td></td><td></td></tr>
+<tr><td>Set up a <a href="https://snapshot.page/#/">Snapshot</a> for Protekt and add the link to this repo</td><td>20%</td><td></td><td></td></tr>
+<tr><td>Stake COMP in pcDAI Vault</td><td>20%</td><td></td><td></td></tr>
+<tr><td>Stake ETH in Mothership Vault</td><td>20%</td><td></td><td></td></tr>
+<tr><td>TBD</td><td>20%</td><td></td><td></td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/protekt-protocol-docs/docs/home"><span class="arrow-prev">← </span><span>Home</span></a><a class="docs-next button" href="/protekt-protocol-docs/docs/priorities"><span>Priorities</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#contributions">Contributions</a><ul class="toc-headings"><li><a href="#contributing-work">Contributing Work</a></li><li><a href="#contributing-capital">Contributing Capital</a></li></ul></li><li><a href="#weekly-drops">Weekly Drops</a><ul class="toc-headings"><li><a href="#alpha-week">Alpha Week</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/protekt-protocol-docs/" class="nav-home"><img src="/protekt-protocol-docs/../img/protekt-logo.png" alt="Protekt Protocol Docs" width="66" height="58"/></a><div><h5>Docs</h5><a href="/protekt-protocol-docs/docs/doc1.html">Getting Started (or other categories)</a><a href="/protekt-protocol-docs/docs/doc2.html">Guides (or other categories)</a><a href="/protekt-protocol-docs/docs/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/protekt-protocol-docs/users">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/protekt-protocol-docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/protekt-protocol-docs/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Protekt Protocol</section></footer></div></body></html>
