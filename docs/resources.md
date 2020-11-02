@@ -1,3 +1,8 @@
+---
+id: resources
+title: Resources
+---
+
 # Resources
 
 ## Risk Management Tools
@@ -15,6 +20,10 @@
 * [Cozy.finance](https://cozy.finance/)
 * [CoverETH](https://hack.ethglobal.co/showcase/covereth-recUTQJKsoK9G34JS)
 * [Trustless.Insure](https://hack.ethglobal.co/showcase/trustless-insure-recMrBDwOFlb0rhjO)
+
+## Tools
+* [Echidna for smart contract fuzzing](https://medium.com/coinmonks/smart-contract-fuzzing-d9b88e0b0a05)
+* [MythX](https://mythx.io/)
 
 ## Writings
 * [Paradigm's Crypto Native Insurance article](https://www.fehrsam.xyz/blog/crypto-native-insurance-defi)
