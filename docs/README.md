@@ -1,4 +1,4 @@
-![Banner](/docs/img/banner.jpg)
+![Banner](/img/banner.jpg)
 
 # Protekt Protocol
 Protekt Protocol puts crypto to work insuring users against hacks, bugs, and other exploits of any DeFi protocol. Just as [Uniswap](https://uniswap.org/) allows any token to have a spot market, Protekt allows any smart contract to be insured by stakers. The goal is to support and catalyze the growth of the DeFi ecosystem by protecting users from getting rekt.
@@ -33,7 +33,7 @@ When setting up the [Protekt contract](/docs/protektContracts.md), the user spec
 
 **Protekt Protocol is a generalized and open version of the risk management systems built into Maker and Aave but can back any capital pool by anyone.**
 
-![Protocol Comparison Diagram](/docs/img/ProtocolComparisonDiagram.png)
+![Protocol Comparison Diagram](/img/ProtocolComparisonDiagram.png)
 
 ### pTokens, like cTokens but with cover
 pTokens wrap shares in a DeFi pool (lending pool, AMM LP shares, etc.) and cover the deposits in return for an extracted fee to reward the shield miners. Let's look at an example:
@@ -42,10 +42,10 @@ Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pT
 
 **In short, by holding a pToken, you pay 20% of your yield farming returns to be insured against hacks and smart contract bugs in the underlying capital pool.**
 
-![pToken Image](/docs/img/pTokenDiagram.png)
+![pToken Image](/img/pTokenDiagram.png)
 
 ### Protekt Contracts
-[Protekt contracts](/docs/protektContracts.md) are configurable insurance markets that can be set up on top of any smart contract. Upon launching the contract, the creator specifies:
+[Protekt contracts](/protektContracts.md) are configurable insurance markets that can be set up on top of any smart contract. Upon launching the contract, the creator specifies:
 * Underlying asset and capital pool
 * Fee model
 * Shield mining asset and investment strategy
@@ -53,12 +53,12 @@ Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pT
 
 Fee models, investment strategy, and the claims process are each configurable but must conform to the same interface. Users can search for the best contract to meet their goals, and stakers can stake capital on the capital pools they are confident in. If a payout event occurs, any insuree can `submitClaim()` and kick off the claims process, which can be managed by programmatic rules, a DAO, or a centralized party.
 
-![Protekt Pool Image](/docs/img/ProtektPool.png)
+![Protekt Pool Image](/img/ProtektPool.png)
 
 ### The PKT Mothership Pool
 The PKT Mothership is the backstop that covers all Protekt pools up to certain thresholds, governs which underlying pools are added and when, and will eventually earn cashflow. New Protekt pools can only be added through the Mothership. She creates life and gives security.
 
-![Full Protocol Image](/docs/img/ProtektProtocolDiagram.png)
+![Full Protocol Image](/img/ProtektProtocolDiagram.png)
 
 ## The PKT Token
 The PKT token is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
