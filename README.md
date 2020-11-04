@@ -5,6 +5,10 @@ Protekt Protocol puts crypto to work insuring users against hacks, bugs, and oth
 
 Along with being a smart contract protocol, an allocation of protocol treasury will be used for grants to continually audit and secure other DeFi money legos, so the ecosystem can all grow safely together!
 
+**Explainers**
+* [Short Video Explainer from EthOnline](https://www.youtube.com/watch?v=7Az70o8kZy8&feature=youtu.be)
+* [EthOnline Hackathon Submission](https://hack.ethglobal.co/showcase/protekt-protocol-recH3ArMNQFeMFCJf)
+
 **Repos**
 * [Smart Contracts](https://github.com/corbinpage/protekt-protocol-contracts)
 * [Frontend](https://github.com/corbinpage/protekt-fe)

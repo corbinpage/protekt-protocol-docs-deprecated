@@ -1,8 +1,3 @@
----
-id: protekt-contracts
-title: Protekt Contracts
----
-
 # Protekt Contracts
 Protekt contracts are configurable insurance contracts that create a P2P market for cover and liability on top of ANY smart contract, whether it's a lending pool, market making pool, staking pool, etc. Similar to how Uniswap allows anyone to create a spot market for any token, Protekt contracts allows anyone to create an insurance market for any smart contract.
 
