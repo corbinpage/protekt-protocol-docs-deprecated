@@ -3,7 +3,7 @@
 Build a protocol and community dedicated to keeping #DeFi safe and secure for everyone. 
 
 ## Roadmap
-![Roadmap](/img/protocol-roadmap.jpg)
+![Roadmap](/img/protocol-roadmap.png)
 
 ## Q4 2020 OKRs
 #### Growth Objective - Find our first users.
