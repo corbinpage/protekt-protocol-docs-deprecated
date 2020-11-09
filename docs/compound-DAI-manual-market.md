@@ -1,4 +1,4 @@
-# Compound cDAI Protekt Contract
+# Compound DAI Manual Market
 This Protekt Contract covers the DAI deposited into Compound. Premiums are paid each block via the COMP rewards of the deposited cDAI, and 20-30% is paid to the Shield Miners to cover the liability of the underlying Compound system.
 
 ## Contract Details
