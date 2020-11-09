@@ -2,13 +2,12 @@
 This Protekt Contract covers the DAI deposited into Compound. Premiums are paid each block via the COMP rewards of the deposited cDAI, and 20-30% is paid to the Shield Miners to cover the liability of the underlying Compound system.
 
 ## Contract Details
-
 ### Cost Model
 Users become insured by depositing cDAI and getting 1:1 pcDAI back, and the coverage fees are claimed in the form of COMP on the underlying cDAI. If the staked amount is greated than the covered amount, all DAI is covered 100% and 30% of the COMP rewards go to the stakers. If the staked amount is less than the covered amount, only partial DAI is covered and 20% of the COMP rewards go to the stakers. 
 
 Every Wednesday, a COMP rewards are collected on all cDAI deposits and are split between the insured and stakers block-by-block. The rewards are then claimable through the claims contracts for each week. Note that stakers can only withdraw their reserve tokens on Wednesdays as well, preventing front-running of any claims submissions.
 
-![Protekt Weekly Cycle](/docs/img/protekt-weekly-cycle.png)
+![Protekt Weekly Cycle](/img/protekt-weekly-cycle.png)
 
 ### Investment Strategy
 The reserve token (WETH) is held and not reinvested, resulting in a 0% APY.

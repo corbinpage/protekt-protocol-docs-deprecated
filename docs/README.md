@@ -49,7 +49,7 @@ Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pT
 ![pToken Image](/img/pTokenDiagram.png)
 
 ### Protekt Contracts
-[Protekt contracts](/protektContracts.md) are configurable insurance markets that can be set up on top of any smart contract. Upon launching the contract, the creator specifies:
+[Protekt contracts](/aboutProtektContracts.md) are configurable insurance markets that can be set up on top of any smart contract. Upon launching the contract, the creator specifies:
 * Underlying asset and capital pool
 * Fee model
 * Shield mining asset and investment strategy

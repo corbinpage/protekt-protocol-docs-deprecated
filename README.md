@@ -1,7 +1,7 @@
 ![Banner](/docs/img/banner.jpg)
 
 # Protekt Protocol
-Protekt Protocol puts crypto to work insuring users against hacks, bugs, and other exploits of any DeFi protocol. Just as [Uniswap](https://uniswap.org/) allows any token to have a spot market, Protekt allows any smart contract to be insured by stakers. The goal is to support and catalyze the growth of the DeFi ecosystem by protecting users from getting rekt.
+[Protekt Protocol](https://protektprotocol.com/) puts crypto to work insuring users against hacks, bugs, and other exploits of any DeFi protocol. Just as [Uniswap](https://uniswap.org/) allows any token to have a spot market, Protekt allows any smart contract to be insured by stakers. The goal is to support and catalyze the growth of the DeFi ecosystem by protecting users from getting rekt.
 
 Along with being a smart contract protocol, an allocation of protocol treasury will be used for grants to continually audit and secure other DeFi money legos, so the ecosystem can all grow safely together!
 
@@ -49,7 +49,7 @@ Users can deposit Dai that gets forwarded into the Compound cDAI pool and get pT
 ![pToken Image](/docs/img/pTokenDiagram.png)
 
 ### Protekt Contracts
-[Protekt contracts](/docs/protektContracts.md) are configurable insurance markets that can be set up on top of any smart contract. Upon launching the contract, the creator specifies:
+[Protekt contracts](/docs/aboutProtektContracts.md) are configurable insurance markets that can be set up on top of any smart contract. Upon launching the contract, the creator specifies:
 * Underlying asset and capital pool
 * Fee model
 * Shield mining asset and investment strategy
