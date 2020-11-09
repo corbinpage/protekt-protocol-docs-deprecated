@@ -1,4 +1,4 @@
-# Compound DAI Manual Market
+# Compound-DAI Manual Market
 This Protekt Contract covers the DAI deposited into Compound. Premiums are paid each block via the COMP rewards of the deposited cDAI, and 20-30% is paid to the Shield Miners to cover the liability of the underlying Compound system.
 
 ## Contract Details
@@ -31,3 +31,5 @@ Anyone can submit a claim and if a payout event has occurred, then the pool ente
 |Governance|Claims Manager|DAO vote controlling a multi-sig wallet|
 |CoverageDisplay|Claims Manager|Protection against 1) **smart contract bugs that allow hackers to steal or lock DAI** and 2) **risk that admin keys are stolen or used to withdraw DAI.** Not covered: 1) Risk of a Maker hack or DAI lossing its peg. 2) Risk of flash loan or other financial exploit.|
 |ClaimManagerDisplay|Claims Manager|Claims are investigated for a period of **1 week**, and the payout decision is made by a DAO vote controlling a multi-sig wallet.|
+
+![Parameters](/img/compound-dai-manual-market-parameters.png)

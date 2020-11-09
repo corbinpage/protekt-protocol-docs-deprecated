@@ -6,7 +6,7 @@ For more on Protekt Contracts, [check out the explainer page](/aboutProtektContr
 ## Current Insured capital
 | Name | Status |
 |---------|----------|
-|[Compound DAI Manual Market](/compound-DAI-manual-market.md)|⌛In Progress|
+|[Compound-DAI Manual Market](/compound-DAI-manual-market.md)|⌛In Progress|
 
 ## Modules
 
