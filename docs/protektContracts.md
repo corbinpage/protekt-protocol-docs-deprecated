@@ -42,6 +42,23 @@ If a claim is successfully made, the payouts will be made by liquidating the Pro
 ## Architecture
 ![Smart](/img/smartContractArchitecture.png)
 
+## Modules
+
+### Fee Model
+| Multi-sig wallet | FeeModelAutoCompoundDAI |
+|---------|----------|
+|✅Done|📆Planned|
+
+### Investment Strategy
+| StrategyHodl | StrategyCompoundDAI | StrategyMakerDSRDAI | StrategyUniswapWETH |
+|---------|---------|---------|---------|
+|✅Done|📆Planned|📆Planned|📆Planned|
+
+### Claims Manager
+| ClaimsManagerSingleAccount | ClaimsManagerAutoCompoundDAI |
+|---------|---------|
+|✅Done|📆Planned|
+
 ## Examples
 Let's look at some examples to see what can be built:
 1. Protekt cDai - Protect DAI deposits in Compound

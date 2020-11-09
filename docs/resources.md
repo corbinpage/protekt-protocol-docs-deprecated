@@ -10,7 +10,6 @@
 * [Nexus Mutual](https://nexusmutual.io/)
 * [Idle Finance's Risk-Adjusted strategy](https://idle.finance/#/dashboard/risk)
 * [3F Mutual](https://3fmutual.com/)
-* [Cover Protocol FKA SAFE]()
 * [Atomica](https://atomica.org/)
 * [Cozy.finance](https://cozy.finance/)
 * [CoverETH](https://hack.ethglobal.co/showcase/covereth-recUTQJKsoK9G34JS)
