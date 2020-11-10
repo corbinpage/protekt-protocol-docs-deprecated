@@ -1,4 +1,5 @@
 * [Home](/)
 * [Protekt Contracts](/protektContracts.md)
-* [Priorities](priorities.md)
-* [Resources](resources.md)
+* [Priorities](/priorities.md)
+* [Progress](/progress.md)
+* [Resources](/resources.md)
