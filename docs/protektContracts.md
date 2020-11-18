@@ -3,27 +3,32 @@ Protekt contracts are configurable insurance contracts that create a P2P market 
 
 For more on Protekt Contracts, [check out the explainer page](/aboutProtektContracts.md).
 
-## Current Insured capital
+## Current Protekt Contracts
 | Name | Status |
 |---------|----------|
-|[Compound-DAI Manual Market](/compound-DAI-manual-market.md)|⌛In Progress|
+|[Comp-DAI Manual Liability](/compound-DAI-manual-market.md)|⌛In Progress|
 
 ## Modules
 
-### Fee Model
+### Fee Models
 | Multi-sig wallet | FeeModelAutoCompoundDAI |
 |---------|----------|
 |✅Done|📆Planned|
 
 ### Investment Strategy
-| StrategyHodl | StrategyCompoundDAI | StrategyMakerDSRDAI | StrategyUniswapWETH |
+| StrategyHodl | StrategyCompoundDAI | StrategyMakerDSR | StrategyUniswapWETH |
 |---------|---------|---------|---------|
 |✅Done|📆Planned|📆Planned|📆Planned|
 
 ### Claims Manager
-| ClaimsManagerSingleAccount | ClaimsManagerAutoCompoundDAI |
-|---------|---------|
-|✅Done|📆Planned|
+| ClaimsManagerSingleAccount | ClaimsManagerAutoCompoundDAI | ClaimsManagerNexusClaimsAssessor |
+|---------|---------|---------|
+|✅Done|📆Planned|📆Planned|
+
+### ShieldToken Withdrawals
+| PausableWithdrawals | LockUpWindowWithdrawals | ThrottledWithdrawals | FeeWithdrawals |
+|---------|---------|---------|
+|⌛In Progress|📆Planned|📆Planned|📆Planned|
 
 ## Architecture
 ![Smart](/img/smartContractArchitecture.png)

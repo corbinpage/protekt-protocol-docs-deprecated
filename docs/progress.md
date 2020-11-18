@@ -2,6 +2,16 @@
 
 ## Weekly Task Tracker
 
+### Nov 18th 2020
+* Designed Holdings page in web app
+* Completed `deposit()` and `withdraw()` functionality in web app
+* Worked on tests for pToken and ShieldToken smart contracts
+* Calls with 3 interested investors (not raising capital at the moment)
+* Community Stats:
+  * Telegram: 55 members
+  * Twitter: 109 followers
+  * Github: 2 contributor
+
 ### Nov 11th 2020
 * Finalist at [EthOnline Hackathon](https://hack.ethglobal.co/showcase/protekt-protocol-recH3ArMNQFeMFCJf)
 * Defined [Q4 2020 Priorities](/priorities.md)

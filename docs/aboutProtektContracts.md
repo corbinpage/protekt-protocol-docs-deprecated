@@ -37,7 +37,7 @@ Each Protekt contract will point to a `claimsManager` contract, which defines wh
 Payout events explicitly outline what executes the insurance contract. For instance, if a hack or financial exploit takes place on a protocol, obligations are greater than available collateral in the market. This condition can be measured with a smart contract query, so a Protekt contract could define that as a payout event. Alternatively, a DAO or centralized party could govern what is considered a payout event if human dependencies are desirable.
 
 #### Liquidations
-If a claim is successfully made, the payouts will be made by liquidating the Protekt pool and, if necessary, the PKT Mothership Pool. This structure was inspired by a [distribution waterfall ](https://en.wikipedia.org/wiki/Distribution_waterfall) so that multiple buckets of capital can be set up to assume different amounts of liability to the underlying pool. Payouts can be made via [payment-in-kind](https://www.investopedia.com/terms/p/paymentinkind.asp) or swapped and distributed in any token.
+If a claim is successfully made, the payouts will be made by liquidating the Protekt pool and, if necessary, the PTK Mothership Pool. This structure was inspired by a [distribution waterfall ](https://en.wikipedia.org/wiki/Distribution_waterfall) so that multiple buckets of capital can be set up to assume different amounts of liability to the underlying pool. Payouts can be made via [payment-in-kind](https://www.investopedia.com/terms/p/paymentinkind.asp) or swapped and distributed in any token.
 
 ## Architecture
 ![Smart](/img/smartContractArchitecture.png)

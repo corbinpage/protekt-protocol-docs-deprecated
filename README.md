@@ -59,23 +59,23 @@ Fee models, investment strategy, and the claims process are each configurable bu
 
 ![Protekt Pool Image](/docs/img/ProtektPool.png)
 
-### The PKT Mothership Pool
-The PKT Mothership is the backstop that covers all Protekt pools up to certain thresholds, governs which underlying pools are added and when, and will eventually earn cashflow. New Protekt pools can only be added through the Mothership. She creates life and gives security.
+### The PTK Mothership Pool
+The PTK Mothership is the backstop that covers all Protekt pools up to certain thresholds, governs which underlying pools are added and when, and will eventually earn cashflow. New Protekt pools can only be added through the Mothership. She creates life and gives security.
 
 ![Full Protocol Image](/docs/img/ProtektProtocolDiagram.png)
 
-## The PKT Token
-The PKT token is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
+## The PTK Token
+The PTK token is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
 
 ### Protocol Incentives (Yield Farming)
-Every Wednesday, new rounds of PKT will be claimable by those providing capital or work into the protocol. Tasks that earn weekly PKT include:
+Every Wednesday, new rounds of PTK will be claimable by those providing capital or work into the protocol. Tasks that earn weekly PTK include:
 * Staking in a Protekt pool
-* Staking ETH or PKT in the Mothership Vault
+* Staking ETH or PTK in the Mothership Vault
 * Rewards for fulfilling open grants
 * Rewards for creating audit reports on other DeFi protocols
 
 ### Governance
-Governance will start and end with the Protekt community. The community will not only be PKT holders but also the hackers, devs, auditors, analysts, and actuaries that contribute their blood, sweat, and tears to DeFi. They will be the ones to propose coverage of new DeFi pools, adjust and critique settings, and keep DeFi safe at night. The protocol will maintain some level of centralization at the beginning so it can iterate quickly but will pursue a pathway of [progressive decentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/) over time.
+Governance will start and end with the Protekt community. The community will not only be PTK holders but also the hackers, devs, auditors, analysts, and actuaries that contribute their blood, sweat, and tears to DeFi. They will be the ones to propose coverage of new DeFi pools, adjust and critique settings, and keep DeFi safe at night. The protocol will maintain some level of centralization at the beginning so it can iterate quickly but will pursue a pathway of [progressive decentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/) over time.
 
 ### Community
 Protekt protocol's ultimate mission is to provide a service that makes DeFi safer so that the ecosystem can grow its capital, participants, and impact. Along with the smart contract protocol, we hope to foster a robust and sustainable community of devs, auditors, analysts, hackers, mempool sleuths, and others to continually test, prod, poke the latest DeFi projects to ensure they are safe. A substantial allocation of the protocol treasury will go towards audit reports, battle testing, meetups, and other content and events to foster a safe financial system.
