@@ -21,7 +21,7 @@ Build a protocol and community dedicated to keeping #DeFi safe and secure for ev
 | Result | Progress to Date | Status |
 |--------|------------------|--------|
 |Have 10 members adding utility to protocol.|2|⌛In Progress|
-|Publish first draft of PKT Token distribution plan for community comment.|Not Published|📆Planned|
+|Publish first draft of PTK Token distribution plan for community comment.|Not Published|📆Planned|
 
 ## Past OKRs
 _TBD_
