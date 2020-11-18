@@ -10,7 +10,7 @@
 * Community Stats:
   * Telegram: 55 members
   * Twitter: 109 followers
-  * Github: 2 contributor
+  * Github: 2 contributors
 
 ### Nov 11th 2020
 * Finalist at [EthOnline Hackathon](https://hack.ethglobal.co/showcase/protekt-protocol-recH3ArMNQFeMFCJf)
