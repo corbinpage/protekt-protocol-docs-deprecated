@@ -1,39 +1,24 @@
----
-id: incentives
-title: Incentives
----
-
 # Protocol Incentives
-Every Wednesday, PTK tokens will be claimable by those providing capital or work into the protocol. PTK can't be bought, only earned.
+Every Wednesday, PTK tokens will be sent to those providing capital or work into the protocol and will be claimable through the web app or smart contracts directly.
 
-Some examples of tasks that earn weekly PTK include:
-**Providing capital**
-* Staking in a Protekt Pool (earned by proportional value per block)
-* Staking ETH/PTK in the Mothership Vault (earned by proportional value per block)
-* Holding pTokens
+When the first phase is started, 0.1% of PTK (100K PTK) will be issued to those providing work to the protocol each week. Liquidity mining will not be active in the first phase.
 
-**Providing work**
-* Rewards for fulfilling open weekly grants (found below)
-* Rewards for creating audit reports on other DeFi protocols (found below)
+Below are the tasks that can earn you PTK, and the full history of distributions is provided below for transparency.
 
-## Contributions
-### Contributing Work
-Once a task is complete, open a PR on this repo for the work that was done. If the PR is merged in, comment with your Ethereum address, and you'll get issued the PTK on the next Wednesday.
+## Current Tasks
+| Incentive Task | % earned |
+|----------------|----------|
+|Develop features in [Protekt smart contracts](https://github.com/corbinpage/protekt-protocol-contracts/projects/2)|50%|
+|Develop features in [Protekt frontend](https://github.com/corbinpage/protekt-fe/projects/1)|50%|
+|Translate the .md files in this repo to Chinese|0%|
+|Set up a [Snapshot](https://snapshot.page/#/) for Protekt|0%| 
 
-### Contributing Capital
-Every wednesday, we run a script to get the proportion of capital in each pool and the amount of blocks that it's been present. We will then issue PTK rewards to each depositing address, which will be claimable on our site.
+## Distribution History
 
-## Weekly Drops
-
-### Alpha Week
-**1M PTK (0.1% of 0.1% total distributed)**
-| Incentive Task | % earned | Payed out to | tx Hash |
-|----------------|----------|--------------|---------|
-|Translate the .md files in this repo to Chinese|20%|||
-|Set up a [Snapshot](https://snapshot.page/#/) for Protekt and add the link to this repo|20%||| 
-|Stake COMP in pcDAI Vault|20%|||
-|Stake ETH in Mothership Vault|20%|||
-|TBD|20%|||
+| Week | Amount Distributed | Recipients | TxHash | Notes |
+|------|--------------------|------------|--------|-------|
+| 11/18/20 | 100K PTK |  | _TBD_ | Tokens not yet distributed onchain |
+| 11/11/20 | 100K PTK |  | _TBD_ | Tokens not yet distributed onchain |
 
 
 

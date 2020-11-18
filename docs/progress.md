@@ -1,6 +1,6 @@
 # Progress Tracker
 
-## Weekly Task Tracker
+## Weekly Protocol Update
 
 ### Nov 18th 2020
 * Designed Holdings page in web app
