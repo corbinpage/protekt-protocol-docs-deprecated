@@ -1,13 +1,13 @@
-# Compound-DAI Manual Liability Market
+# Compound DAI Manual Liability Market
 This Protekt Contract covers the DAI deposited into Compound. Premiums are paid each block via the COMP rewards of the deposited cDAI, and 20-30% is paid to the Shield Miners to cover the liability of the underlying Compound system.
 
+![Protekt Weekly Cycle](/img/compound-dai-manual.png)
+
 ## Contract Details
-### Cost Model
+### Fee Model
 Users become insured by depositing cDAI and getting 1:1 pcDAI back, and the coverage fees are claimed in the form of COMP on the underlying cDAI. If the staked amount is greated than the covered amount, all DAI is covered 100% and 30% of the COMP rewards go to the stakers. If the staked amount is less than the covered amount, only partial DAI is covered and 20% of the COMP rewards go to the stakers. 
 
 Every Wednesday, a COMP rewards are collected on all cDAI deposits and are split between the insured and stakers block-by-block. The rewards are then claimable through the claims contracts for each week. Note that stakers can only withdraw their reserve tokens on Wednesdays as well, preventing front-running of any claims submissions.
-
-![Protekt Weekly Cycle](/img/protekt-weekly-cycle.png)
 
 ### Investment Strategy
 The reserve token (WETH) is held and not reinvested, resulting in a 0% APY.
@@ -32,4 +32,4 @@ Anyone can submit a claim and if a payout event has occurred, then the pool ente
 |CoverageDisplay|Claims Manager|Protection against 1) **smart contract bugs that allow hackers to steal or lock DAI** and 2) **risk that admin keys are stolen or used to withdraw DAI.** Not covered: 1) Risk of a Maker hack or DAI lossing its peg. 2) Risk of flash loan or other financial exploit.|
 |ClaimManagerDisplay|Claims Manager|Claims are investigated for a period of **1 week**, and the payout decision is made by a DAO vote controlling a multi-sig wallet.|
 
-![Parameters](/img/compound-dai-manual-market-parameters.png)
+![Parameters](/img/compound-DAI-manual-parameters.png)
