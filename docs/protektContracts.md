@@ -27,7 +27,7 @@ For more on Protekt Contracts, [check out the explainer page](/aboutProtektContr
 
 ### ShieldToken Withdrawals
 | PausableWithdrawals | LockUpWindowWithdrawals | ThrottledWithdrawals | FeeWithdrawals |
-|---------|---------|---------|
+|---------|---------|---------|---------|
 |⌛In Progress|📆Planned|📆Planned|📆Planned|
 
 ## Architecture
