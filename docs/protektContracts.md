@@ -6,7 +6,7 @@ For more on Protekt Contracts, [check out the explainer page](/aboutProtektContr
 ## Current Protekt Contracts
 | Name | Status |
 |---------|----------|
-|[Compound DAI Manual Liability](/compound-DAI-manual-market.md)|⌛In Progress|
+|[Compound DAI Manual](/compound-DAI-manual.md)|⌛In Progress|
 
 ## Modules
 
