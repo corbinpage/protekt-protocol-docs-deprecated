@@ -19,7 +19,7 @@ Anyone can submit a claim and if a payout event has occurred, then the pool ente
 * **Governance** - DAO controlling a multi-sig wallet
 
 #### Proof of Loss
-For this contract, payout events will be specified by a DAO controlling a multi-sig wallet. In future phases, we seek to remove humans from the process and have payout events driven through smart contract queries.
+For this contract, payout events will be specified by a DAO controlling a multi-sig wallet. In future phases, we seek to 
 
 ## All Data Fields
 | Data Field | Category | Value |

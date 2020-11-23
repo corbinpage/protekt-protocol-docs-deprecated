@@ -2,6 +2,16 @@
 
 ## Weekly Protocol Update
 
+### Nov 25th 2020
+* Finish and tested smart contract ShieldToken withdrawals, including pausibility
+* Finished tests for ClaimsManagerSingleAccount
+* Worked on Proof of Loss proposal for Compound
+* Calls with 2 interested investors (not raising capital at the moment)
+* Community Stats:
+  * Telegram: 55 members
+  * Twitter: 109 followers
+  * Github: 2 contributors
+
 ### Nov 18th 2020
 * Designed Holdings page in web app
 * Completed `deposit()` and `withdraw()` functionality in web app

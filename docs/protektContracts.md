@@ -1,12 +1,12 @@
 # Protekt Contracts
 Protekt contracts are configurable insurance contracts that create a P2P market for cover and liability on top of ANY smart contract, whether it's a lending pool, market making pool, staking pool, etc. Each contract conforms to the same generalizable interface so that entering/exiting the market, fee pricing, and submitting claims is consistent and can be snapped together with other money legos.
 
-For more on Protekt Contracts, [check out the explainer page](/aboutProtektContracts.md).
+For more on Protekt Contracts, [check out the explainer page](/protektContracts/aboutProtektContracts.md).
 
 ## Current Protekt Contracts
 | Name | Status |
 |---------|----------|
-|[Compound DAI Manual](/compound-DAI-manual.md)|⌛In Progress|
+|[Compound DAI Manual](/protektContracts/compound-DAI-manual.md)|⌛In Progress|
 
 ## Modules
 

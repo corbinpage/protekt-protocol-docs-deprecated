@@ -17,6 +17,7 @@
 * [ArmorFi](https://twitter.com/armorfi)
 * [UNION](https://www.unn.finance)
 * [NSure](https://nsure.network/#/)
+* [Umbrella Protocol](https://medium.com/yam-finance/introducing-the-umbrella-protocol-by-yam-e89109548c6d)
 
 ## Protocol Backstops
 * [Aave Safety Module](https://docs.aave.com/aavenomics/safety-module)
@@ -41,3 +42,4 @@
 * Axion hack
 * [Akropolis 12/11/2020](https://twitter.com/Dogetoshi/status/1326963117356625931)
 * [Origin Protocol 16/11/2020](https://twitter.com/stanikulechov/status/1328514979121795072?s=21)
+* [Pickle Finance](https://www.coindesk.com/defi-protocol-pickle-finance-token-loses-almost-half-its-value-after-19-7m-hack)
