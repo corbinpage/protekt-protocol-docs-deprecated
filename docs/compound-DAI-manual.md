@@ -19,7 +19,17 @@ Anyone can submit a claim and if a payout event has occurred, then the pool ente
 * **Governance** - DAO controlling a multi-sig wallet
 
 #### Proof of Loss
-For this contract, payout events will be specified by a DAO controlling a multi-sig wallet. In future phases, we seek to remove humans from the process and have payout events driven through smart contract queries.
+For this contract, payout events will be specified by a DAO controlling a multi-sig wallet. In future phases, we seek to remove humans from the process and have payout events driven through smart contract queries:
+* Payout Event for cDAI if: TotalBorrowed > TotalSupply + Reserves
+```
+CErc20 cDAI = CToken(0x3FDA...);
+uint numTokens = cDAI.totalSupply();
+uint totalSupply = numTokens.mul(cDAI.exchangeRateCurrent());
+uint reserve = cToken.totalReserves();
+uint borrows = cDAI.totalBorrowsCurrent();
+
+bool activePayoutEvent = borrows > totalSupply.add(reserve) 
+```
 
 ## All Data Fields
 | Data Field | Category | Value |
