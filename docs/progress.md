@@ -7,9 +7,8 @@
 * Finished tests for ClaimsManagerSingleAccount
 * Worked on Proof of Loss proposal for Compound
 * Calls with 2 interested investors (not raising capital at the moment)
-* Call is Delphi Digital to discuss their recent work with Aave
 * Community Stats:
-  * Telegram: 72 members
+  * Telegram: 75 members
   * Twitter: 162 followers
   * Github: 2 contributors
 
