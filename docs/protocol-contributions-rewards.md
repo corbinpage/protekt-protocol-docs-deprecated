@@ -4,7 +4,7 @@ Inspired by Ethereum, Compound, and Uniswap, Protekt seeks to reward early contr
 ## Distribution Phases
 When the first phase is started, 0.1% of PTK will be issued to those providing work to the protocol each week. Liquidity mining will not be active in the first phase.
 
-Visit the [Incentives Page](/incentives.md) to see the current token opportunities and start earning today!
+Visit the [Contributions Page](/contributions.md) to see the current token opportunities and start earning today!
 
 ## Contributions
 Every Wednesday, PTK tokens will be sent to those providing capital or work into the protocol and will be claimable through the web app or smart contracts directly.
