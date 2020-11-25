@@ -27,7 +27,7 @@ uint numTokens = cDAI.totalSupply();
 uint totalSupply = numTokens.mul(cDAI.exchangeRateCurrent());
 uint reserve = cToken.totalReserves();
 uint borrows = cDAI.totalBorrowsCurrent();
-bool activePayoutEvent = borrows > totalSupply.add(reserve) 
+bool activePayoutEvent = borrows > totalSupply.add(reserve);
 ```
 
 ## All Data Fields
