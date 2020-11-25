@@ -44,4 +44,4 @@ bool activePayoutEvent = borrows > totalSupply.add(reserve);
 |CoverageDisplay|Claims Manager|Protection against 1) **smart contract bugs that allow hackers to steal or lock DAI** and 2) **risk that admin keys are stolen or used to withdraw DAI.** Not covered: 1) Risk of a Maker hack or DAI lossing its peg. 2) Risk of flash loan or other financial exploit.|
 |ClaimManagerDisplay|Claims Manager|Claims are investigated for a period of **1 week**, and the payout decision is made by a DAO vote controlling a multi-sig wallet.|
 
-![Parameters](/img/compound-DAI-manual-parameters.png)
+![Parameters](../img/compound-DAI-manual-parameters.png)
