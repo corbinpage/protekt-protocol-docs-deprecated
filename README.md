@@ -65,14 +65,14 @@ The PTK Mothership is the backstop that covers all Protekt pools up to certain t
 ![Full Protocol Image](/docs/img/ProtektProtocolDiagram.png)
 
 ## The PTK Token
-The PTK token is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
+The [PTK token](/docs/ptk-token.md) is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
 
 ### Protocol Incentives (Yield Farming)
-Every Wednesday, new rounds of PTK will be claimable by those providing capital or work into the protocol. Tasks that earn weekly PTK include:
-* Staking in a Protekt pool
-* Staking ETH or PTK in the Mothership Vault
-* Rewards for fulfilling open grants
-* Rewards for creating audit reports on other DeFi protocols
+PTK tokens can be earned by contributing capital (liquidity mining) and work, like completing tasks, writing documentation, writing code, translations, etc. 
+
+Every Wednesday, new rounds of PTK will be claimable by those completing tasks to support the protocol. Read more about protocol [contributions and rewards here](/docs/contributions-and-rewards.md).
+
+And visit the [Weekly Tasks Page](/docs/weekly-tasks.md) to see current opportunities and start contrbuting.
 
 ### Governance
 Governance will start and end with the Protekt community. The community will not only be PTK holders but also the hackers, devs, auditors, analysts, and actuaries that contribute their blood, sweat, and tears to DeFi. They will be the ones to propose coverage of new DeFi pools, adjust and critique settings, and keep DeFi safe at night. The protocol will maintain some level of centralization at the beginning so it can iterate quickly but will pursue a pathway of [progressive decentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/) over time.
