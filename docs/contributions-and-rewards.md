@@ -2,7 +2,7 @@
 Inspired by Ethereum, Compound, and Uniswap, Protekt seeks to reward early contributors to the protocol and its mission to make DeFi safer for everyone. Contributors of capital (liquidity mining) and their work (completing tasks, documentation, development, translations, etc.) will earn a stake in the protocol token, PTK, and can participate in governance, staking, and administration of the protocol.
 
 ## Reward Phases
-Every Wednesday, PTK tokens will be sent to those providing capital or work to the protocol and will be claimable through the [PTK Rewards app](http://redeem-ptk.protektprotocol.com/#/).
+Every Wednesday, PTK tokens will be made claimable to those providing capital or work to the protocol and will be able to be collected through the [PTK Rewards app](http://redeem-ptk.protektprotocol.com/#/).
 
 When the 1st phase is started, 0.1% of PTK will be issued to those providing work to the protocol each week. Liquidity mining will not be active in the 1st phase.
 
